@@ -24,7 +24,7 @@ export function DownloadModal({ isOpen, onClose }) {
             href="https://github.com/maykecorrea/baixatudoyvion/releases/download/Downloads/Baixa.Tudo.Yvion.Setup.1.2.2.exe" 
             className="flex items-center gap-4 p-4 border border-neon bg-neon/10 rounded-lg hover:bg-neon hover:text-background transition-all group"
           >
-            <img src="/imagem/winddws.png" alt="Windows" className="h-8 object-contain brightness-0 invert group-hover:invert-0 transition-all" />
+            <img src="/imagem/winddws.webp" alt="Windows" className="h-8 object-contain brightness-0 invert group-hover:invert-0 transition-all" />
             <div className="flex-1 text-left">
               <h3 className="font-bold text-lg uppercase tracking-widest">Windows (PC)</h3>
               <p className="text-xs opacity-70">Versão 1.2.2 • 64-bit</p>
@@ -34,7 +34,7 @@ export function DownloadModal({ isOpen, onClose }) {
 
           {/* macOS - Em Breve */}
           <div className="flex items-center gap-4 p-4 border border-border bg-panel/50 rounded-lg opacity-50 cursor-not-allowed">
-            <img src="/imagem/aple.png" alt="Apple" className="h-8 object-contain" />
+            <img src="/imagem/aple.webp" alt="Apple" className="h-8 object-contain" />
             <div className="flex-1 text-left">
               <h3 className="font-bold text-lg uppercase tracking-widest text-white">macOS</h3>
               <p className="text-xs text-textLight/70">Em desenvolvimento...</p>
@@ -43,7 +43,7 @@ export function DownloadModal({ isOpen, onClose }) {
 
           {/* Android - Em Breve */}
           <div className="flex items-center gap-4 p-4 border border-border bg-panel/50 rounded-lg opacity-50 cursor-not-allowed">
-            <img src="/imagem/android.png" alt="Android" className="h-8 object-contain" />
+            <img src="/imagem/android.webp" alt="Android" className="h-8 object-contain" />
             <div className="flex-1 text-left">
               <h3 className="font-bold text-lg uppercase tracking-widest text-white">Android</h3>
               <p className="text-xs text-textLight/70">Em desenvolvimento...</p>

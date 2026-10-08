@@ -36,7 +36,7 @@ function App() {
           playsInline 
           className="w-full h-full object-cover opacity-80"
         >
-          <source src="/videos/fundo.mp4" type="video/mp4" />
+          <source src="/videos/fundo_opt.mp4" type="video/mp4" />
         </video>
         
         {/* Overlay extremamente leve só pra garantir que o texto branco leia em cima de partes claras do vídeo */}
@@ -53,7 +53,7 @@ function App() {
       <nav className="relative z-50 flex items-center justify-between p-6 max-w-7xl mx-auto border-b border-neon/20 backdrop-blur-md bg-background/50 sticky top-0">
         <div className="flex items-center gap-3">
           <div className="w-12 h-12 flex items-center justify-center rounded border border-neon/50 box-glow overflow-hidden bg-background">
-            <img src="/imagem/LOGO.png" alt="Logo" className="w-full h-full object-contain p-1" />
+            <img src="/imagem/LOGO_opt.png" alt="Logo" className="w-full h-full object-contain p-1" />
           </div>
           <div>
             <h1 className="text-xl font-bold text-white tracking-widest uppercase text-glow">
@@ -113,13 +113,13 @@ function App() {
             
             <div className="mt-8 flex items-center justify-center gap-8">
               <button onClick={() => setIsDownloadModalOpen(true)} className="flex flex-col items-center gap-2">
-                <img src="/imagem/winddws.png" alt="Windows" className="h-10 md:h-12 object-contain opacity-60 hover:opacity-100 transition-opacity cursor-pointer" />
+                <img src="/imagem/winddws.webp" alt="Windows" className="h-10 md:h-12 object-contain opacity-60 hover:opacity-100 transition-opacity cursor-pointer" />
               </button>
               <button onClick={() => setIsDownloadModalOpen(true)} className="flex flex-col items-center gap-2">
-                <img src="/imagem/aple.png" alt="Apple" className="h-12 md:h-14 object-contain opacity-60 hover:opacity-100 transition-opacity cursor-pointer" />
+                <img src="/imagem/aple.webp" alt="Apple" className="h-12 md:h-14 object-contain opacity-60 hover:opacity-100 transition-opacity cursor-pointer" />
               </button>
               <button onClick={() => setIsDownloadModalOpen(true)} className="flex flex-col items-center gap-2">
-                <img src="/imagem/android.png" alt="Android" className="h-12 md:h-14 object-contain opacity-60 hover:opacity-100 transition-opacity cursor-pointer" />
+                <img src="/imagem/android.webp" alt="Android" className="h-12 md:h-14 object-contain opacity-60 hover:opacity-100 transition-opacity cursor-pointer" />
               </button>
             </div>
           </motion.div>
@@ -232,7 +232,7 @@ function App() {
       <footer className="border-t border-border mt-20 py-10 relative z-10 bg-panel/50 backdrop-blur">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 text-xs text-textLight/40 uppercase tracking-widest">
           <div className="flex items-center gap-2">
-            <img src="/imagem/LOGO.png" alt="Logo" className="w-4 h-4 object-contain" /> Baixa Tudo Yvion © 2026
+            <img src="/imagem/LOGO_opt.png" alt="Logo" className="w-4 h-4 object-contain" /> Baixa Tudo Yvion © 2026
           </div>
           <div className="flex gap-6 items-center">
             <button onClick={() => setLegalModal('termos')} className="hover:text-neon transition-colors">Termos de Uso</button>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://baixatudo.yvion.com.br/sitemap.xml
