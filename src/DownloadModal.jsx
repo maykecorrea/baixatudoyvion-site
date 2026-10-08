@@ -21,13 +21,13 @@ export function DownloadModal({ isOpen, onClose }) {
         <div className="flex flex-col gap-4">
           {/* Windows - Versão Funcional */}
           <a 
-            href="https://github.com/maykecorrea/baixatudoyvion/releases/download/Downloads/Baixa.Tudo.Yvion.Setup.1.2.2.exe" 
+            href="https://github.com/maykecorrea/baixatudoyvion/releases/download/Downloads/Baixa.Tudo.Yvion.Setup.1.3.0.exe" 
             className="flex items-center gap-4 p-4 border border-neon bg-neon/10 rounded-lg hover:bg-neon hover:text-background transition-all group"
           >
             <img src="/imagem/winddws.webp" alt="Windows" className="h-8 object-contain brightness-0 invert group-hover:invert-0 transition-all" />
             <div className="flex-1 text-left">
               <h3 className="font-bold text-lg uppercase tracking-widest">Windows (PC)</h3>
-              <p className="text-xs opacity-70">Versão 1.2.2 • 64-bit</p>
+              <p className="text-xs opacity-70">Versão 1.3.0 • 64-bit</p>
             </div>
             <Download size={20} />
           </a>
